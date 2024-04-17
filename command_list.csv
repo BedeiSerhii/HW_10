@@ -1,0 +1,56 @@
+    1  clear
+    2  git clone
+    3  clear
+    4  git clone HW_10
+    5  git config --global user.name "Bedei Serhii"
+    6  git config --global user.email "bedeiserhii@gmail.com"
+    7  git config --global --list
+    8  clear
+    9  git clone HW-10
+   10  git clone
+   11  clear
+   12  git clone https://github.com/BedeiSerhii/HW_10.git
+   13  cd HW_10
+   14  cd 
+   15  cd /c/users/сергій/desktop/qa/git
+   16  git clone https://github.com/BedeiSerhii/HW_10.git
+   17  cd HW_10
+   18  touch text_ignore.txt
+   19  ls -l
+   20  nano .gitignore
+   21  nano .gitignore
+   22  ls -l
+   23  git status
+   24  git add
+   25  git add*
+   26  git commit -m "Text_ignore file is added to ignore"
+   27  git status
+   28  git add .gitignore
+   29  git commit -m "Text_ignore file is added to ignore"
+   30  git status
+   31  touch main_test.txt
+   32  ls -l
+   33  git add *
+   34  git status
+   35  commit -m "Main_test file is added to repository"
+   36  git commit -m "Main_test file is added to repository"
+   37  git satatus
+   38  git status 
+   39  git checkout -b branch_2
+   40  git branch -m develop
+   41  touch develop_test.txt
+   42  ls -l
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit -m "New branch created + develop test file created"
+   47  nano develop_test.txt
+   48  nano develop_test.txt
+   49  git status
+   50  git add .
+   51  git commit -m "Develop test was edited"
+   52  git status
+   53  git checkout main
+   54  git merge develop
+   55  git log
+   56  history > command_list.csv
