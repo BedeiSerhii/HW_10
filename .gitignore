@@ -1,5 +1,7 @@
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
+#File required in HW
+text_ignore.txt
 #launch.json folder
 .vscode/
 #Cache folder
